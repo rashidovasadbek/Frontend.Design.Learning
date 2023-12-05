@@ -9,14 +9,14 @@
     <link rel="stylesheet" href="css/style.css">
 </head>
 
-<body class="bg-white">
+<body class="bg-white min-w-[360px]">
 
 <!-- Navbar -->
-<header class="fixed top-0 bg-white z-10 w-full h-20 px-20 flex justify-between items-center border-b border-gray-300 text-textPrimary">
+<header class="fixed h-20 top-0 z-10 content-padding w-full bg-defaultBackground flex justify-between items-center border-b border-borderSecondary text-textPrimary">
 
     <!--logo -->
-    <div class="hidden lg:block text-logoPrimary min-w-[254px]">
-        <svg width="102"
+    <div class="hidden md:block text-logoPrimary lg:basis-1/6">
+        <svg class="md:w-[30px] lg:w-[108px]"
              height="32"
              style="display: block;">
             <path d="M29.3864 22.7101C29.2429 22.3073 29.0752 21.9176 28.9157 21.5565C28.6701 21.0011 28.4129 20.4446 28.1641 19.9067L28.1444 19.864C25.9255 15.0589 23.5439 10.1881 21.0659 5.38701L20.9607 5.18316C20.7079 4.69289 20.4466 4.18596 20.1784 3.68786C19.8604 3.0575 19.4745 2.4636 19.0276 1.91668C18.5245 1.31651 17.8956 0.833822 17.1853 0.502654C16.475 0.171486 15.7005 -9.83959e-05 14.9165 4.23317e-08C14.1325 9.84805e-05 13.3581 0.171877 12.6478 0.503224C11.9376 0.834571 11.3088 1.31742 10.8059 1.91771C10.3595 2.46476 9.97383 3.05853 9.65572 3.68858C9.38521 4.19115 9.12145 4.70278 8.8664 5.19757L8.76872 5.38696C6.29061 10.1884 3.90903 15.0592 1.69015 19.8639L1.65782 19.9338C1.41334 20.463 1.16057 21.0102 0.919073 21.5563C0.75949 21.9171 0.592009 22.3065 0.448355 22.7103C0.0369063 23.8104 -0.094204 24.9953 0.0668098 26.1585C0.237562 27.334 0.713008 28.4447 1.44606 29.3804C2.17911 30.3161 3.14434 31.0444 4.24614 31.4932C5.07835 31.8299 5.96818 32.002 6.86616 32C7.14824 31.9999 7.43008 31.9835 7.71027 31.9509C8.846 31.8062 9.94136 31.4366 10.9321 30.8639C12.2317 30.1338 13.5152 29.0638 14.9173 27.5348C16.3194 29.0638 17.6029 30.1338 18.9025 30.8639C19.8932 31.4367 20.9886 31.8062 22.1243 31.9509C22.4045 31.9835 22.6864 31.9999 22.9685 32C23.8664 32.002 24.7561 31.8299 25.5883 31.4932C26.6901 31.0444 27.6554 30.3161 28.3885 29.3804C29.1216 28.4447 29.5971 27.3341 29.7679 26.1585C29.9287 24.9952 29.7976 23.8103 29.3864 22.7101ZM14.9173 24.377C13.1816 22.1769 12.0678 20.1338 11.677 18.421C11.5169 17.7792 11.4791 17.1131 11.5656 16.4573C11.6339 15.9766 11.8105 15.5176 12.0821 15.1148C12.4163 14.6814 12.8458 14.3304 13.3374 14.0889C13.829 13.8475 14.3696 13.7219 14.9175 13.7219C15.4655 13.722 16.006 13.8476 16.4976 14.0892C16.9892 14.3307 17.4186 14.6817 17.7528 15.1151C18.0244 15.5181 18.201 15.9771 18.2693 16.4579C18.3556 17.114 18.3177 17.7803 18.1573 18.4223C17.7661 20.1349 16.6526 22.1774 14.9173 24.377ZM27.7406 25.8689C27.6212 26.6908 27.2887 27.4674 26.7762 28.1216C26.2636 28.7759 25.5887 29.2852 24.8183 29.599C24.0393 29.9111 23.1939 30.0217 22.3607 29.9205C21.4946 29.8089 20.6599 29.5239 19.9069 29.0824C18.7501 28.4325 17.5791 27.4348 16.2614 25.9712C18.3591 23.3846 19.669 21.0005 20.154 18.877C20.3723 17.984 20.4196 17.0579 20.2935 16.1475C20.1791 15.3632 19.8879 14.615 19.4419 13.9593C18.9194 13.2519 18.2378 12.6768 17.452 12.2805C16.6661 11.8842 15.798 11.6777 14.9175 11.6777C14.0371 11.6777 13.1689 11.8841 12.383 12.2803C11.5971 12.6765 10.9155 13.2515 10.393 13.9589C9.94707 14.6144 9.65591 15.3624 9.5414 16.1465C9.41524 17.0566 9.4623 17.9822 9.68011 18.8749C10.1648 20.9993 11.4748 23.384 13.5732 25.9714C12.2555 27.4348 11.0845 28.4325 9.92769 29.0825C9.17468 29.5239 8.34007 29.809 7.47395 29.9205C6.64065 30.0217 5.79525 29.9111 5.0162 29.599C4.24581 29.2852 3.57092 28.7759 3.05838 28.1217C2.54585 27.4674 2.21345 26.6908 2.09411 25.8689C1.97932 25.0334 2.07701 24.1825 2.37818 23.3946C2.49266 23.0728 2.62663 22.757 2.7926 22.3818C3.0274 21.851 3.27657 21.3115 3.51759 20.7898L3.54996 20.7197C5.75643 15.9419 8.12481 11.0982 10.5894 6.32294L10.6875 6.13283C10.9384 5.64601 11.1979 5.14267 11.4597 4.6563C11.7101 4.15501 12.0132 3.68171 12.3639 3.2444C12.6746 2.86903 13.0646 2.56681 13.5059 2.35934C13.9473 2.15186 14.4291 2.04426 14.9169 2.04422C15.4047 2.04418 15.8866 2.15171 16.3279 2.35911C16.7693 2.56651 17.1593 2.86867 17.4701 3.24399C17.821 3.68097 18.1242 4.15411 18.3744 4.65538C18.6338 5.13742 18.891 5.63623 19.1398 6.11858L19.2452 6.32315C21.7097 11.0979 24.078 15.9415 26.2847 20.7201L26.3046 20.7631C26.5498 21.2936 26.8033 21.8419 27.042 22.382C27.2082 22.7577 27.3424 23.0738 27.4566 23.3944C27.7576 24.1824 27.8553 25.0333 27.7406 25.8689Z"
@@ -27,43 +27,74 @@
     </div>
 
     <!-- Location menu -->
-    <div class="flex flex-2 items-center h-[48px] pl-4 pr-2 gap-4 border border-gray-300 shadow-md rounded-full">
+    <div class="flex flex-grow md:grow-0 md:w-fit items-center pl-6 pr-2 gap-4 border border-gray-300 shadow-md rounded-full">
 
-        <button class="text-sm font-medium">
-           Anywhere
-        </button>
+        <!-- Location menu detailed -->
+        <div class="h-12 hidden md:flex  items-center justify-center gap-5">
 
-        <div class="border-r border-gray-300 h-3/5"></div>
+            <button class="text-sm font-medium line-clamp-1">
+               Anywhere
+            </button>
 
-        <button class="text-sm font-medium">
-            Any week
-        </button>
+            <div class="border-r border-gray-300 h-3/5"></div>
 
-        <div class="border-r border-gray-300 h-3/5"></div>
+            <button class="text-sm font-medium">
+                Any week
+            </button>
 
-        <button class="text-sm gap-3 flex items-center justify-center text-textSecondary">
-            <div>
-                Add guests
-            </div>
+            <div class="border-r border-gray-300 h-3/5"></div>
 
-            <div class="bg-logoPrimary h-[32px] w-[32px] flex items-center justify-center rounded-full text-white">
-                <svg xmlns="http://www.w3.org/2000/svg"
-                     viewBox="0 0 32 32"
-                     aria-hidden="true"
-                     role="presentation"
-                     focusable="false"
-                     style="display: block; fill: none; height: 12px; width: 12px; stroke: currentcolor; stroke-width: 5.33333; overflow: visible;">
-                    <path fill="none"
-                          d="M13 24a11 11 0 1 0 0-22 11 11 0 0 0 0 22zm8-3 9 9"></path>
-                </svg>
-            </div>
+            <button class="text-sm gap-3 flex items-center justify-center text-textSecondary">
+                <div>
+                    Add guests
+                </div>
+
+                <div class="bg-logoPrimary h-[32px] w-[32px] flex items-center justify-center rounded-full text-white">
+                    <svg xmlns="http://www.w3.org/2000/svg"
+                         viewBox="0 0 32 32"
+                         aria-hidden="true"
+                         role="presentation"
+                         focusable="false"
+                         style="display: block; fill: none; height: 12px; width: 12px; stroke: currentcolor; stroke-width: 5.33333; overflow: visible;">
+                        <path fill="none"
+                              d="M13 24a11 11 0 1 0 0-22 11 11 0 0 0 0 22zm8-3 9 9"></path>
+                    </svg>
+                </div>
+
+            </button>
+
+        </div>
+
+        <!-- Location menu simple -->
+        <button class="md:hidden flex items-center justify-center gap-3 h-12">
+
+            <span class="h-[40px] w-[40px] flex items-center justify-center text-textPrimary">
+                 <svg class="w-[20px] h-[20px] stroke-textPrimary stroke-[5px]"
+                      width="20px" height="20px"
+                      xmlns="http://www.w3.org/2000/svg"
+                      viewBox="0 0 32 32"
+                      aria-hidden="true"
+                      role="presentation"
+                      focusable="false">
+                        <path fill="none"
+                              d="M13 24a11 11 0 1 0 0-22 11 11 0 0 0 0 22zm8-3 9 9"></path>
+                    </svg>
+            </span>
+
+            <span class="flex flex-col items-start">
+                <span class="text-sm font-medium">
+                    <span>Any week</span>
+                    <span>•</span>
+                    <span>Add guests</span>
+                </span>
+            </span>
 
         </button>
 
     </div>
 
     <!-- Profile menu -->
-    <div class="hidden lg:flex flex justify-center items-center gap-5">
+    <div class="hidden md:flex  justify-center items-center gap-5">
 
         <button class="text-sm font-medium">
             <span>
@@ -119,6 +150,17 @@
 
     </div>
 
+    <!-- Locations filter -->
+    <button class="ml-3 flex md:hidden h-10 w-10 border border-borderSecondary justify-center items-center rounded-full">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" aria-hidden="true" role="presentation" focusable="false"
+             style="display: block; fill: none; height: 16px; width: 16px; stroke: currentcolor; stroke-width: 4; overflow: visible;">
+            <path fill="none"
+                  d="M7 16H3m26 0H15M29 6h-4m-8 0H3m26 20h-4M7 16a4 4 0 1 0 8 0 4 4 0 0 0-8 0zM17 6a4 4 0 1 0 8 0 4 4 0 0 0-8 0zm0 20a4 4 0 1 0 8 0 4 4 0 0 0-8 0zm0 0H3"></path>
+        </svg>
+    </button>
+
+    <!-- Bottom border -->
+    <div class="absolute border-b-2 border-borderSecondary"></div>
 </header>
 
 <article class="mt-[20px] px[24px] px-[80px]">
@@ -127,10 +169,10 @@
         <div class="flex flex-col items-center justify-center">
 
             <!-- Locations tap-->
-            <div class="fixed top-0 mt-20 z-10 bg-white w-[90%] flex items-center justify-center gap-4">
+            <div class="fixed w-full top-0 pt-2 mt-20 z-10 bg-white  flex items-center justify-center gap-4 content-padding">
 
                 <!-- Location previous pagination -->
-                <div>
+                <div class="md-3">
                     <button class="border border-borderSecondary h-8 w-8 flex items-center justify-center rounded-full shadow-md">
                         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" aria-hidden="true" role="presentation" focusable="false"
                              style="display: block; fill: none; height: 12px; width: 12px; stroke: currentcolor; stroke-width: 5.33333; overflow: visible;">
@@ -140,7 +182,7 @@
                 </div>
 
                 <!-- Locations categories -->
-                <div class="flex gap-10 overflow-x-hidden">
+                <div class="flex gap-6 md:gap-12 overflow-x-scroll no-scrollbar">
 
                     <div class="h-[80px] select-common group min-w-[50px] flex flex-col justify-center items-center relative">
                         <img class="h-[24px] w-[24px] mb-2 select-logo-img  select-transition"
@@ -249,7 +291,7 @@
                 </div>
 
                 <!-- Location next pagination -->
-                <div>
+                <div class="mb-3">
                     <button class="border border-borderSecondary h-8 w-8 flex items-center justify-center rounded-full shadow-md">
                         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" aria-hidden="true" role="presentation"
                              focusable="false"
@@ -261,14 +303,22 @@
                 </div>
 
                 <!-- Filters actions -->
-                <div class="w-[300px] hidden lg:block rounded-lg border border-gray-300">
+                <div class="w-[500px] hidden lg:flex items-center justify-center pb-3">
 
-                    <button>
-
+                    <!-- Locations filter -->
+                    <button class="ml-3 flex group h-12 w-auto px-4 border border-borderSecondary justify-center items-center rounded-lg gap-3">
+                        <svg class="text-textSecondary select-text" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" aria-hidden="true"
+                             role="presentation"
+                             focusable="false"
+                             style="display: block; fill: none; height: 16px; width: 16px; stroke: currentcolor; stroke-width: 4; overflow: visible;">
+                            <path fill="none"
+                                  d="M7 16H3m26 0H15M29 6h-4m-8 0H3m26 20h-4M7 16a4 4 0 1 0 8 0 4 4 0 0 0-8 0zM17 6a4 4 0 1 0 8 0 4 4 0 0 0-8 0zm0 20a4 4 0 1 0 8 0 4 4 0 0 0-8 0zm0 0H3"></path>
+                        </svg>
+                        <span>Filters</span>
                     </button>
 
-                    <button>
-
+                    <button class="ml-3 flex group h-12 w-auto px-4 border border-borderSecondary justify-center items-center rounded-lg gap-3">
+                        <span class="text-xs font-medium whitespace-nowrap">Display total before taxes</span>
                     </button>
 
                 </div>
@@ -276,9 +326,7 @@
             </div>
 
             <!-- Locations grid -->
-            <div  class="mt-[160px] grid grid-cols-4 px-[24px] sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 place-items-center ">
-
-                <!--Location card-->
+            <div  class="mt-[160px] grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-5 xl:grid-cols-5 gap-y-10 gap-x-4 place-items-center">
 
                 <div class="rounded-xl">
 
@@ -287,12 +335,19 @@
                         <img class="h-full object-cover"
                              src="https://a0.muscache.com/im/pictures/f18dad97-7d8b-444a-9d94-1a428f37f36b.jpg?im_w=720"
                              alt="">
+                        <button class="absolute top-4 right-4">
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" aria-hidden="true" role="presentation" focusable="false"
+                                 style="display: block; fill: rgba(0, 0, 0, 0.5); height: 24px; width: 24px; stroke: var(--f-mkcy-f); stroke-width: 2; overflow: visible;">
+                                <path d="M16 28c7-4.73 14-10 14-17a6.98 6.98 0 0 0-7-7c-1.8 0-3.58.68-4.95 2.05L16 8.1l-2.05-2.05a6.98 6.98 0 0 0-9.9 0A6.98 6.98 0 0 0 2 11c0 7 7 12.27 14 17z"></path>
+                            </svg>
+                        </button>
                     </div>
 
                     <!-- Location details-->
                     <div class="flex justify-between mt-2">
                         <div>
-                            <h5 class="font-medium">Bujara. India</h5>
+                            <h5 class="font-medium line-clamp-1">Bujra. India Bujra. India Bujra. India Bujra. India Bujra. India Bujra. IndiaBujra.
+                                IndiaBujra. India</h5>
                             <p class="text-textSecondary">2,345 kilometers away</p>
                             <p class="text-textSecondary">Jan 1-6</p>
                             <h5 ><strong>$1,234</strong>night</h5>
@@ -300,24 +355,18 @@
 
                     </div>
 
-                </div>
-
-                <div class="rounded-xl">
-
-                    <!--Location header-->
-                    <div class="w-[250px] h-[236px] rounded-xl overflow-hidden">
-                        <img class="h-full object-cover"
-                             src="https://a0.muscache.com/im/pictures/2049f7a9-bd83-4a87-9c95-644da4b74db1.jpg?im_w=720"
-                             alt="">
-                    </div>
-
-                    <!-- Location details-->
-                    <div class="mb-2">
-
-                        <h5 class="font-medium">Bujara. India</h5>
-                        <p class="text-textSecondary">3,234 kilometers away</p>
-                        <p class="text-textSecondary">Dec 1-6</p>
-                        <h5 class="font-medium">$60 night</h5>
+                    <!-- Feedback -->
+                    <div class="flex items-start justify-center">
+                        <div class="flex gap-2 items-center justify-center">
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" aria-hidden="true" role="presentation" focusable="false"
+                                 style="display: block; height: 12px; width: 12px; fill: currentcolor;">
+                                <path fill-rule="evenodd"
+                                      d="m15.1 1.58-4.13 8.88-9.86 1.27a1 1 0 0 0-.54 1.74l7.3 6.57-1.97 9.85a1 1 0 0 0 1.48 1.06l8.62-5 8.63 5a1 1 0 0 0 1.48-1.06l-1.97-9.85 7.3-6.57a1 1 0 0 0-.55-1.73l-9.86-1.28-4.12-8.88a1 1 0 0 0-1.82 0z"></path>
+                            </svg>
+                            <span>
+                            4.58
+                        </span>
+                        </div>
                     </div>
 
                 </div>
@@ -325,19 +374,42 @@
                 <div class="rounded-xl">
 
                     <!--Location header-->
-                    <div class="w-[250px] h-[236px] rounded-xl overflow-hidden">
+                    <div class="w-full h-auto aspect-square rounded-xl overflow-hidden relative">
                         <img class="h-full object-cover"
-                             src="https://a0.muscache.com/im/pictures/41912165/e6ab5568_original.jpg?im_w=720"
+                             src="https://a0.muscache.com/im/pictures/f18dad97-7d8b-444a-9d94-1a428f37f36b.jpg?im_w=720"
                              alt="">
+                        <button class="absolute top-4 right-4">
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" aria-hidden="true" role="presentation" focusable="false"
+                                 style="display: block; fill: rgba(0, 0, 0, 0.5); height: 24px; width: 24px; stroke: var(--f-mkcy-f); stroke-width: 2; overflow: visible;">
+                                <path d="M16 28c7-4.73 14-10 14-17a6.98 6.98 0 0 0-7-7c-1.8 0-3.58.68-4.95 2.05L16 8.1l-2.05-2.05a6.98 6.98 0 0 0-9.9 0A6.98 6.98 0 0 0 2 11c0 7 7 12.27 14 17z"></path>
+                            </svg>
+                        </button>
                     </div>
 
                     <!-- Location details-->
-                    <div class="mb-2">
+                    <div class="flex justify-between mt-2">
+                        <div>
+                            <h5 class="font-medium line-clamp-1">Bujra. India Bujra. India Bujra. India Bujra. India Bujra. India Bujra. IndiaBujra.
+                                IndiaBujra. India</h5>
+                            <p class="text-textSecondary">2,345 kilometers away</p>
+                            <p class="text-textSecondary">Jan 1-6</p>
+                            <h5 ><strong>$1,234</strong>night</h5>
+                        </div>
 
-                        <h5 class="font-medium">Bujara. India</h5>
-                        <p class="text-textSecondary">2,345 kilometers away</p>
-                        <p class="text-textSecondary">Dec 1-6</p>
-                        <h5 class="tfont-medium">$160 night</h5>
+                    </div>
+
+                    <!-- Feedback -->
+                    <div class="flex items-start justify-center">
+                        <div class="flex gap-2 items-center justify-center">
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" aria-hidden="true" role="presentation" focusable="false"
+                                 style="display: block; height: 12px; width: 12px; fill: currentcolor;">
+                                <path fill-rule="evenodd"
+                                      d="m15.1 1.58-4.13 8.88-9.86 1.27a1 1 0 0 0-.54 1.74l7.3 6.57-1.97 9.85a1 1 0 0 0 1.48 1.06l8.62-5 8.63 5a1 1 0 0 0 1.48-1.06l-1.97-9.85 7.3-6.57a1 1 0 0 0-.55-1.73l-9.86-1.28-4.12-8.88a1 1 0 0 0-1.82 0z"></path>
+                            </svg>
+                            <span>
+                            4.58
+                        </span>
+                        </div>
                     </div>
 
                 </div>
@@ -345,19 +417,42 @@
                 <div class="rounded-xl">
 
                     <!--Location header-->
-                    <div class="w-[250px] h-[236px] rounded-xl overflow-hidden">
+                    <div class="w-full h-auto aspect-square rounded-xl overflow-hidden relative">
                         <img class="h-full object-cover"
-                             src="https://a0.muscache.com/im/pictures/75339852-42e1-4b1c-938a-8f4c6066112d.jpg?im_w=720"
+                             src="https://a0.muscache.com/im/pictures/f18dad97-7d8b-444a-9d94-1a428f37f36b.jpg?im_w=720"
                              alt="">
+                        <button class="absolute top-4 right-4">
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" aria-hidden="true" role="presentation" focusable="false"
+                                 style="display: block; fill: rgba(0, 0, 0, 0.5); height: 24px; width: 24px; stroke: var(--f-mkcy-f); stroke-width: 2; overflow: visible;">
+                                <path d="M16 28c7-4.73 14-10 14-17a6.98 6.98 0 0 0-7-7c-1.8 0-3.58.68-4.95 2.05L16 8.1l-2.05-2.05a6.98 6.98 0 0 0-9.9 0A6.98 6.98 0 0 0 2 11c0 7 7 12.27 14 17z"></path>
+                            </svg>
+                        </button>
                     </div>
 
                     <!-- Location details-->
-                    <div class="mb-2">
+                    <div class="flex justify-between mt-2">
+                        <div>
+                            <h5 class="font-medium line-clamp-1">Bujra. India Bujra. India Bujra. India Bujra. India Bujra. India Bujra. IndiaBujra.
+                                IndiaBujra. India</h5>
+                            <p class="text-textSecondary">2,345 kilometers away</p>
+                            <p class="text-textSecondary">Jan 1-6</p>
+                            <h5 ><strong>$1,234</strong>night</h5>
+                        </div>
 
-                        <h5 class="font-medium">Bujara. India</h5>
-                        <p class="text-textSecondary">2,345 kilometers away</p>
-                        <p class="text-textSecondary">Dec 1-6</p>
-                        <h5 class="tfont-medium">$160 night</h5>
+                    </div>
+
+                    <!-- Feedback -->
+                    <div class="flex items-start justify-center">
+                        <div class="flex gap-2 items-center justify-center">
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" aria-hidden="true" role="presentation" focusable="false"
+                                 style="display: block; height: 12px; width: 12px; fill: currentcolor;">
+                                <path fill-rule="evenodd"
+                                      d="m15.1 1.58-4.13 8.88-9.86 1.27a1 1 0 0 0-.54 1.74l7.3 6.57-1.97 9.85a1 1 0 0 0 1.48 1.06l8.62-5 8.63 5a1 1 0 0 0 1.48-1.06l-1.97-9.85 7.3-6.57a1 1 0 0 0-.55-1.73l-9.86-1.28-4.12-8.88a1 1 0 0 0-1.82 0z"></path>
+                            </svg>
+                            <span>
+                            4.58
+                        </span>
+                        </div>
                     </div>
 
                 </div>
@@ -365,19 +460,42 @@
                 <div class="rounded-xl">
 
                     <!--Location header-->
-                    <div class="w-[250px] h-[236px] rounded-xl overflow-hidden">
+                    <div class="w-full h-auto aspect-square rounded-xl overflow-hidden relative">
                         <img class="h-full object-cover"
-                             src="https://a0.muscache.com/im/pictures/3e13ae05-69b2-4da8-8367-6e8aca8e44c1.jpg?im_w=720"
+                             src="https://a0.muscache.com/im/pictures/f18dad97-7d8b-444a-9d94-1a428f37f36b.jpg?im_w=720"
                              alt="">
+                        <button class="absolute top-4 right-4">
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" aria-hidden="true" role="presentation" focusable="false"
+                                 style="display: block; fill: rgba(0, 0, 0, 0.5); height: 24px; width: 24px; stroke: var(--f-mkcy-f); stroke-width: 2; overflow: visible;">
+                                <path d="M16 28c7-4.73 14-10 14-17a6.98 6.98 0 0 0-7-7c-1.8 0-3.58.68-4.95 2.05L16 8.1l-2.05-2.05a6.98 6.98 0 0 0-9.9 0A6.98 6.98 0 0 0 2 11c0 7 7 12.27 14 17z"></path>
+                            </svg>
+                        </button>
                     </div>
 
                     <!-- Location details-->
-                    <div class="mb-2">
+                    <div class="flex justify-between mt-2">
+                        <div>
+                            <h5 class="font-medium line-clamp-1">Bujra. India Bujra. India Bujra. India Bujra. India Bujra. India Bujra. IndiaBujra.
+                                IndiaBujra. India</h5>
+                            <p class="text-textSecondary">2,345 kilometers away</p>
+                            <p class="text-textSecondary">Jan 1-6</p>
+                            <h5 ><strong>$1,234</strong>night</h5>
+                        </div>
 
-                        <h5 class="font-medium">Bujara. India</h5>
-                        <p class="text-textSecondary">2,345 kilometers away</p>
-                        <p class="text-textSecondary">Dec 1-6</p>
-                        <h5 class="tfont-medium">$160 night</h5>
+                    </div>
+
+                    <!-- Feedback -->
+                    <div class="flex items-start justify-center">
+                        <div class="flex gap-2 items-center justify-center">
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" aria-hidden="true" role="presentation" focusable="false"
+                                 style="display: block; height: 12px; width: 12px; fill: currentcolor;">
+                                <path fill-rule="evenodd"
+                                      d="m15.1 1.58-4.13 8.88-9.86 1.27a1 1 0 0 0-.54 1.74l7.3 6.57-1.97 9.85a1 1 0 0 0 1.48 1.06l8.62-5 8.63 5a1 1 0 0 0 1.48-1.06l-1.97-9.85 7.3-6.57a1 1 0 0 0-.55-1.73l-9.86-1.28-4.12-8.88a1 1 0 0 0-1.82 0z"></path>
+                            </svg>
+                            <span>
+                            4.58
+                        </span>
+                        </div>
                     </div>
 
                 </div>
@@ -385,19 +503,42 @@
                 <div class="rounded-xl">
 
                     <!--Location header-->
-                    <div class="w-[250px] h-[236px] rounded-xl overflow-hidden">
+                    <div class="w-full h-auto aspect-square rounded-xl overflow-hidden relative">
                         <img class="h-full object-cover"
-                             src="https://a0.muscache.com/im/pictures/miso/Hosting-41656133/original/3bc9ae02-5865-45b1-9aef-16f968414ed5.jpeg?im_w=720"
+                             src="https://a0.muscache.com/im/pictures/f18dad97-7d8b-444a-9d94-1a428f37f36b.jpg?im_w=720"
                              alt="">
+                        <button class="absolute top-4 right-4">
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" aria-hidden="true" role="presentation" focusable="false"
+                                 style="display: block; fill: rgba(0, 0, 0, 0.5); height: 24px; width: 24px; stroke: var(--f-mkcy-f); stroke-width: 2; overflow: visible;">
+                                <path d="M16 28c7-4.73 14-10 14-17a6.98 6.98 0 0 0-7-7c-1.8 0-3.58.68-4.95 2.05L16 8.1l-2.05-2.05a6.98 6.98 0 0 0-9.9 0A6.98 6.98 0 0 0 2 11c0 7 7 12.27 14 17z"></path>
+                            </svg>
+                        </button>
                     </div>
 
                     <!-- Location details-->
-                    <div class="mb-2">
+                    <div class="flex justify-between mt-2">
+                        <div>
+                            <h5 class="font-medium line-clamp-1">Bujra. India Bujra. India Bujra. India Bujra. India Bujra. India Bujra. IndiaBujra.
+                                IndiaBujra. India</h5>
+                            <p class="text-textSecondary">2,345 kilometers away</p>
+                            <p class="text-textSecondary">Jan 1-6</p>
+                            <h5 ><strong>$1,234</strong>night</h5>
+                        </div>
 
-                        <h5 class="font-medium">Bujara. India</h5>
-                        <p class="text-textSecondary">2,345 kilometers away</p>
-                        <p class="text-textSecondary">Dec 1-6</p>
-                        <h5 class="tfont-medium">$160 night</h5>
+                    </div>
+
+                    <!-- Feedback -->
+                    <div class="flex items-start justify-center">
+                        <div class="flex gap-2 items-center justify-center">
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" aria-hidden="true" role="presentation" focusable="false"
+                                 style="display: block; height: 12px; width: 12px; fill: currentcolor;">
+                                <path fill-rule="evenodd"
+                                      d="m15.1 1.58-4.13 8.88-9.86 1.27a1 1 0 0 0-.54 1.74l7.3 6.57-1.97 9.85a1 1 0 0 0 1.48 1.06l8.62-5 8.63 5a1 1 0 0 0 1.48-1.06l-1.97-9.85 7.3-6.57a1 1 0 0 0-.55-1.73l-9.86-1.28-4.12-8.88a1 1 0 0 0-1.82 0z"></path>
+                            </svg>
+                            <span>
+                            4.58
+                        </span>
+                        </div>
                     </div>
 
                 </div>
@@ -405,19 +546,42 @@
                 <div class="rounded-xl">
 
                     <!--Location header-->
-                    <div class="w-[250px] h-[236px] rounded-xl overflow-hidden">
+                    <div class="w-full h-auto aspect-square rounded-xl overflow-hidden relative">
                         <img class="h-full object-cover"
-                             src="https://a0.muscache.com/im/pictures/miso/Hosting-566463602379241779/original/a51d16c5-43ea-4aef-9705-2ab353f54276.jpeg?im_w=720"
+                             src="https://a0.muscache.com/im/pictures/f18dad97-7d8b-444a-9d94-1a428f37f36b.jpg?im_w=720"
                              alt="">
+                        <button class="absolute top-4 right-4">
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" aria-hidden="true" role="presentation" focusable="false"
+                                 style="display: block; fill: rgba(0, 0, 0, 0.5); height: 24px; width: 24px; stroke: var(--f-mkcy-f); stroke-width: 2; overflow: visible;">
+                                <path d="M16 28c7-4.73 14-10 14-17a6.98 6.98 0 0 0-7-7c-1.8 0-3.58.68-4.95 2.05L16 8.1l-2.05-2.05a6.98 6.98 0 0 0-9.9 0A6.98 6.98 0 0 0 2 11c0 7 7 12.27 14 17z"></path>
+                            </svg>
+                        </button>
                     </div>
 
                     <!-- Location details-->
-                    <div class="mb-2">
+                    <div class="flex justify-between mt-2">
+                        <div>
+                            <h5 class="font-medium line-clamp-1">Bujra. India Bujra. India Bujra. India Bujra. India Bujra. India Bujra. IndiaBujra.
+                                IndiaBujra. India</h5>
+                            <p class="text-textSecondary">2,345 kilometers away</p>
+                            <p class="text-textSecondary">Jan 1-6</p>
+                            <h5 ><strong>$1,234</strong>night</h5>
+                        </div>
 
-                        <h5 class="font-medium">Bujara. India</h5>
-                        <p class="text-textSecondary">2,345 kilometers away</p>
-                        <p class="text-textSecondary">Dec 1-6</p>
-                        <h5 class="tfont-medium">$160 night</h5>
+                    </div>
+
+                    <!-- Feedback -->
+                    <div class="flex items-start justify-center">
+                        <div class="flex gap-2 items-center justify-center">
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" aria-hidden="true" role="presentation" focusable="false"
+                                 style="display: block; height: 12px; width: 12px; fill: currentcolor;">
+                                <path fill-rule="evenodd"
+                                      d="m15.1 1.58-4.13 8.88-9.86 1.27a1 1 0 0 0-.54 1.74l7.3 6.57-1.97 9.85a1 1 0 0 0 1.48 1.06l8.62-5 8.63 5a1 1 0 0 0 1.48-1.06l-1.97-9.85 7.3-6.57a1 1 0 0 0-.55-1.73l-9.86-1.28-4.12-8.88a1 1 0 0 0-1.82 0z"></path>
+                            </svg>
+                            <span>
+                            4.58
+                        </span>
+                        </div>
                     </div>
 
                 </div>
@@ -425,19 +589,42 @@
                 <div class="rounded-xl">
 
                     <!--Location header-->
-                    <div class="w-[250px] h-[236px] rounded-xl overflow-hidden">
+                    <div class="w-full h-auto aspect-square rounded-xl overflow-hidden relative">
                         <img class="h-full object-cover"
-                             src="https://a0.muscache.com/im/pictures/ea3f2d5a-648a-4fc9-a251-94013a47c426.jpg?im_w=720"
+                             src="https://a0.muscache.com/im/pictures/f18dad97-7d8b-444a-9d94-1a428f37f36b.jpg?im_w=720"
                              alt="">
+                        <button class="absolute top-4 right-4">
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" aria-hidden="true" role="presentation" focusable="false"
+                                 style="display: block; fill: rgba(0, 0, 0, 0.5); height: 24px; width: 24px; stroke: var(--f-mkcy-f); stroke-width: 2; overflow: visible;">
+                                <path d="M16 28c7-4.73 14-10 14-17a6.98 6.98 0 0 0-7-7c-1.8 0-3.58.68-4.95 2.05L16 8.1l-2.05-2.05a6.98 6.98 0 0 0-9.9 0A6.98 6.98 0 0 0 2 11c0 7 7 12.27 14 17z"></path>
+                            </svg>
+                        </button>
                     </div>
 
                     <!-- Location details-->
-                    <div class="mb-2">
+                    <div class="flex justify-between mt-2">
+                        <div>
+                            <h5 class="font-medium line-clamp-1">Bujra. India Bujra. India Bujra. India Bujra. India Bujra. India Bujra. IndiaBujra.
+                                IndiaBujra. India</h5>
+                            <p class="text-textSecondary">2,345 kilometers away</p>
+                            <p class="text-textSecondary">Jan 1-6</p>
+                            <h5 ><strong>$1,234</strong>night</h5>
+                        </div>
 
-                        <h5 class="font-medium">Bujara. India</h5>
-                        <p class="text-textSecondary">2,345 kilometers away</p>
-                        <p class="text-textSecondary">Dec 1-6</p>
-                        <h5 class="tfont-medium">$160 night</h5>
+                    </div>
+
+                    <!-- Feedback -->
+                    <div class="flex items-start justify-center">
+                        <div class="flex gap-2 items-center justify-center">
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" aria-hidden="true" role="presentation" focusable="false"
+                                 style="display: block; height: 12px; width: 12px; fill: currentcolor;">
+                                <path fill-rule="evenodd"
+                                      d="m15.1 1.58-4.13 8.88-9.86 1.27a1 1 0 0 0-.54 1.74l7.3 6.57-1.97 9.85a1 1 0 0 0 1.48 1.06l8.62-5 8.63 5a1 1 0 0 0 1.48-1.06l-1.97-9.85 7.3-6.57a1 1 0 0 0-.55-1.73l-9.86-1.28-4.12-8.88a1 1 0 0 0-1.82 0z"></path>
+                            </svg>
+                            <span>
+                            4.58
+                        </span>
+                        </div>
                     </div>
 
                 </div>
@@ -445,19 +632,42 @@
                 <div class="rounded-xl">
 
                     <!--Location header-->
-                    <div class="w-[250px] h-[236px] rounded-xl overflow-hidden">
+                    <div class="w-full h-auto aspect-square rounded-xl overflow-hidden relative">
                         <img class="h-full object-cover"
-                             src="https://a0.muscache.com/im/pictures/0a21144d-9f85-4706-9987-6693033f4364.jpg?im_w=720"
+                             src="https://a0.muscache.com/im/pictures/f18dad97-7d8b-444a-9d94-1a428f37f36b.jpg?im_w=720"
                              alt="">
+                        <button class="absolute top-4 right-4">
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" aria-hidden="true" role="presentation" focusable="false"
+                                 style="display: block; fill: rgba(0, 0, 0, 0.5); height: 24px; width: 24px; stroke: var(--f-mkcy-f); stroke-width: 2; overflow: visible;">
+                                <path d="M16 28c7-4.73 14-10 14-17a6.98 6.98 0 0 0-7-7c-1.8 0-3.58.68-4.95 2.05L16 8.1l-2.05-2.05a6.98 6.98 0 0 0-9.9 0A6.98 6.98 0 0 0 2 11c0 7 7 12.27 14 17z"></path>
+                            </svg>
+                        </button>
                     </div>
 
                     <!-- Location details-->
-                    <div class="mb-2">
+                    <div class="flex justify-between mt-2">
+                        <div>
+                            <h5 class="font-medium line-clamp-1">Bujra. India Bujra. India Bujra. India Bujra. India Bujra. India Bujra. IndiaBujra.
+                                IndiaBujra. India</h5>
+                            <p class="text-textSecondary">2,345 kilometers away</p>
+                            <p class="text-textSecondary">Jan 1-6</p>
+                            <h5 ><strong>$1,234</strong>night</h5>
+                        </div>
 
-                        <h5 class="font-medium">Bujara. India</h5>
-                        <p class="text-textSecondary">2,345 kilometers away</p>
-                        <p class="text-textSecondary">Dec 1-6</p>
-                        <h5 class="tfont-medium">$160 night</h5>
+                    </div>
+
+                    <!-- Feedback -->
+                    <div class="flex items-start justify-center">
+                        <div class="flex gap-2 items-center justify-center">
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" aria-hidden="true" role="presentation" focusable="false"
+                                 style="display: block; height: 12px; width: 12px; fill: currentcolor;">
+                                <path fill-rule="evenodd"
+                                      d="m15.1 1.58-4.13 8.88-9.86 1.27a1 1 0 0 0-.54 1.74l7.3 6.57-1.97 9.85a1 1 0 0 0 1.48 1.06l8.62-5 8.63 5a1 1 0 0 0 1.48-1.06l-1.97-9.85 7.3-6.57a1 1 0 0 0-.55-1.73l-9.86-1.28-4.12-8.88a1 1 0 0 0-1.82 0z"></path>
+                            </svg>
+                            <span>
+                            4.58
+                        </span>
+                        </div>
                     </div>
 
                 </div>
@@ -465,23 +675,131 @@
                 <div class="rounded-xl">
 
                     <!--Location header-->
-                    <div class="w-[250px] h-[236px] rounded-xl overflow-hidden">
+                    <div class="w-full h-auto aspect-square rounded-xl overflow-hidden relative">
                         <img class="h-full object-cover"
-                             src="https://a0.muscache.com/im/pictures/miso/Hosting-824678192424913331/original/47c4b4b9-9a98-4c3d-b650-3a54017faf04.jpeg?im_w=720"
+                             src="https://a0.muscache.com/im/pictures/f18dad97-7d8b-444a-9d94-1a428f37f36b.jpg?im_w=720"
                              alt="">
+                        <button class="absolute top-4 right-4">
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" aria-hidden="true" role="presentation" focusable="false"
+                                 style="display: block; fill: rgba(0, 0, 0, 0.5); height: 24px; width: 24px; stroke: var(--f-mkcy-f); stroke-width: 2; overflow: visible;">
+                                <path d="M16 28c7-4.73 14-10 14-17a6.98 6.98 0 0 0-7-7c-1.8 0-3.58.68-4.95 2.05L16 8.1l-2.05-2.05a6.98 6.98 0 0 0-9.9 0A6.98 6.98 0 0 0 2 11c0 7 7 12.27 14 17z"></path>
+                            </svg>
+                        </button>
                     </div>
 
                     <!-- Location details-->
-                    <div class="mb-2">
+                    <div class="flex justify-between mt-2">
+                        <div>
+                            <h5 class="font-medium line-clamp-1">Bujra. India Bujra. India Bujra. India Bujra. India Bujra. India Bujra. IndiaBujra.
+                                IndiaBujra. India</h5>
+                            <p class="text-textSecondary">2,345 kilometers away</p>
+                            <p class="text-textSecondary">Jan 1-6</p>
+                            <h5 ><strong>$1,234</strong>night</h5>
+                        </div>
 
-                        <h5 class="font-medium">Bujara. India</h5>
-                        <p class="text-textSecondary">2,345 kilometers away</p>
-                        <p class="text-textSecondary">Dec 1-6</p>
-                        <h5 class="tfont-medium">$160 night</h5>
+                    </div>
+
+                    <!-- Feedback -->
+                    <div class="flex items-start justify-center">
+                        <div class="flex gap-2 items-center justify-center">
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" aria-hidden="true" role="presentation" focusable="false"
+                                 style="display: block; height: 12px; width: 12px; fill: currentcolor;">
+                                <path fill-rule="evenodd"
+                                      d="m15.1 1.58-4.13 8.88-9.86 1.27a1 1 0 0 0-.54 1.74l7.3 6.57-1.97 9.85a1 1 0 0 0 1.48 1.06l8.62-5 8.63 5a1 1 0 0 0 1.48-1.06l-1.97-9.85 7.3-6.57a1 1 0 0 0-.55-1.73l-9.86-1.28-4.12-8.88a1 1 0 0 0-1.82 0z"></path>
+                            </svg>
+                            <span>
+                            4.58
+                        </span>
+                        </div>
                     </div>
 
                 </div>
 
+                <div class="rounded-xl">
+
+                    <!--Location header-->
+                    <div class="w-full h-auto aspect-square rounded-xl overflow-hidden relative">
+                        <img class="h-full object-cover"
+                             src="https://a0.muscache.com/im/pictures/f18dad97-7d8b-444a-9d94-1a428f37f36b.jpg?im_w=720"
+                             alt="">
+                        <button class="absolute top-4 right-4">
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" aria-hidden="true" role="presentation" focusable="false"
+                                 style="display: block; fill: rgba(0, 0, 0, 0.5); height: 24px; width: 24px; stroke: var(--f-mkcy-f); stroke-width: 2; overflow: visible;">
+                                <path d="M16 28c7-4.73 14-10 14-17a6.98 6.98 0 0 0-7-7c-1.8 0-3.58.68-4.95 2.05L16 8.1l-2.05-2.05a6.98 6.98 0 0 0-9.9 0A6.98 6.98 0 0 0 2 11c0 7 7 12.27 14 17z"></path>
+                            </svg>
+                        </button>
+                    </div>
+
+                    <!-- Location details-->
+                    <div class="flex justify-between mt-2">
+                        <div>
+                            <h5 class="font-medium line-clamp-1">Bujra. India Bujra. India Bujra. India Bujra. India Bujra. India Bujra. IndiaBujra.
+                                IndiaBujra. India</h5>
+                            <p class="text-textSecondary">2,345 kilometers away</p>
+                            <p class="text-textSecondary">Jan 1-6</p>
+                            <h5 ><strong>$1,234</strong>night</h5>
+                        </div>
+
+                    </div>
+
+                    <!-- Feedback -->
+                    <div class="flex items-start justify-center">
+                        <div class="flex gap-2 items-center justify-center">
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" aria-hidden="true" role="presentation" focusable="false"
+                                 style="display: block; height: 12px; width: 12px; fill: currentcolor;">
+                                <path fill-rule="evenodd"
+                                      d="m15.1 1.58-4.13 8.88-9.86 1.27a1 1 0 0 0-.54 1.74l7.3 6.57-1.97 9.85a1 1 0 0 0 1.48 1.06l8.62-5 8.63 5a1 1 0 0 0 1.48-1.06l-1.97-9.85 7.3-6.57a1 1 0 0 0-.55-1.73l-9.86-1.28-4.12-8.88a1 1 0 0 0-1.82 0z"></path>
+                            </svg>
+                            <span>
+                            4.58
+                        </span>
+                        </div>
+                    </div>
+
+                </div>
+
+                <div class="rounded-xl">
+
+                    <!--Location header-->
+                    <div class="w-full h-auto aspect-square rounded-xl overflow-hidden relative">
+                        <img class="h-full object-cover"
+                             src="https://a0.muscache.com/im/pictures/f18dad97-7d8b-444a-9d94-1a428f37f36b.jpg?im_w=720"
+                             alt="">
+                        <button class="absolute top-4 right-4">
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" aria-hidden="true" role="presentation" focusable="false"
+                                 style="display: block; fill: rgba(0, 0, 0, 0.5); height: 24px; width: 24px; stroke: var(--f-mkcy-f); stroke-width: 2; overflow: visible;">
+                                <path d="M16 28c7-4.73 14-10 14-17a6.98 6.98 0 0 0-7-7c-1.8 0-3.58.68-4.95 2.05L16 8.1l-2.05-2.05a6.98 6.98 0 0 0-9.9 0A6.98 6.98 0 0 0 2 11c0 7 7 12.27 14 17z"></path>
+                            </svg>
+                        </button>
+                    </div>
+
+                    <!-- Location details-->
+                    <div class="flex justify-between mt-2">
+                        <div>
+                            <h5 class="font-medium line-clamp-1">Bujra. India Bujra. India Bujra. India Bujra. India Bujra. India Bujra. IndiaBujra.
+                                IndiaBujra. India</h5>
+                            <p class="text-textSecondary">2,345 kilometers away</p>
+                            <p class="text-textSecondary">Jan 1-6</p>
+                            <h5 ><strong>$1,234</strong>night</h5>
+                        </div>
+
+                    </div>
+
+                    <!-- Feedback -->
+                    <div class="flex items-start justify-center">
+                        <div class="flex gap-2 items-center justify-center">
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" aria-hidden="true" role="presentation" focusable="false"
+                                 style="display: block; height: 12px; width: 12px; fill: currentcolor;">
+                                <path fill-rule="evenodd"
+                                      d="m15.1 1.58-4.13 8.88-9.86 1.27a1 1 0 0 0-.54 1.74l7.3 6.57-1.97 9.85a1 1 0 0 0 1.48 1.06l8.62-5 8.63 5a1 1 0 0 0 1.48-1.06l-1.97-9.85 7.3-6.57a1 1 0 0 0-.55-1.73l-9.86-1.28-4.12-8.88a1 1 0 0 0-1.82 0z"></path>
+                            </svg>
+                            <span>
+                            4.58
+                        </span>
+                        </div>
+                    </div>
+
+                </div>
 
             </div>
 

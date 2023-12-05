@@ -6,8 +6,9 @@ export default {
   theme: {
     screens: {
       sm: '545px',
-      md: '960px',
-      lg: '1280px',
+      md: '745px',
+      lg: '950px',
+      xl: '1440px'
     },
     extend: {
       colors: {
@@ -18,6 +19,7 @@ export default {
         logoAccent: '#dddddd',
         logoPrimary: '#ff385c',
         borderSecondary: '#cccccc',
+        defaultBackground: '#ffffff'
       }
     },
   },
