@@ -6,10 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="b223def2-db55-4364-9520-5cbf5af47719" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/N78-AirBnB-css/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/N78-AirBnB-css/css/style.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/N78-AirBnB-css/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/N78-AirBnB-css/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/N78-AirBnB-css/input.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/N78-AirBnB-css/input.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/N78-AirBnB-css/tailwind.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/N78-AirBnB-css/tailwind.config.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -38,7 +35,7 @@
     "WebServerToolWindowFactoryState": "false",
     "git-widget-placeholder": "master",
     "ignore.virus.scanning.warn.message": "true",
-    "last_opened_file_path": "D:/Frontend/BNN-Level-I-3-Front",
+    "last_opened_file_path": "D:/Frontend/Frontend.Design.Learning",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -79,6 +76,7 @@
       <workItem from="1701371233990" duration="330000" />
       <workItem from="1701421495801" duration="1206000" />
       <workItem from="1701787611156" duration="8061000" />
+      <workItem from="1701846624427" duration="1582000" />
     </task>
     <servers />
   </component>
