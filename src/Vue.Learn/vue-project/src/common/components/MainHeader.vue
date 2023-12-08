@@ -13,13 +13,8 @@
 
       <!-- Locations filter -->
 
-
       <!-- Bottom border -->
       <div class="absolute border-b-2 border-borderSecondary"></div>
-
-      <div >
-
-      </div>
 
     </div>
 
