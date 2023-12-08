@@ -5,16 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b223def2-db55-4364-9520-5cbf5af47719" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Vue.Learn/vue-project/src/common/components/MainHeader.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Vue.Learn/vue-project/src/modules/locations/companents/LocationCard.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Vue.Learn/vue-project/src/modules/locations/companents/LocationProfile.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Vue.Learn/vue-project/src/modules/locations/companents/LocationsMenu.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Vue.Learn/vue-project/src/modules/locations/companents/LocationsTap.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Vue.Learn/vue-project/src/modules/locations/companents/ProfileMenu.vue" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Vue.Learn/vue-project/src/App.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/Vue.Learn/vue-project/src/App.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Vue.Learn/vue-project/src/common/views/HomeView.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/Vue.Learn/vue-project/src/common/views/HomeView.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Vue.Learn/vue-project/src/modules/locations/companents/LocationsGrid.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/Vue.Learn/vue-project/src/modules/locations/companents/LocationsGrid.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/N78-AirBnB-css/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/N78-AirBnB-css/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Vue.Learn/vue-project/src/assets/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/Vue.Learn/vue-project/src/assets/main.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Vue.Learn/vue-project/src/common/components/MainHeader.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/Vue.Learn/vue-project/src/common/components/MainHeader.vue" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -38,17 +32,20 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "JavaScript Debug.index.html.executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
     "git-widget-placeholder": "master",
     "ignore.virus.scanning.warn.message": "true",
-    "last_opened_file_path": "D:/Frontend/Frontend.Design.Learning/src/Vue.Learn",
+    "last_opened_file_path": "D:/Frontend/Frontend.Design.Learning",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
+    "npm.dev.executor": "Run",
+    "ts.external.directory.path": "D:\\Frontend\\Frontend.Design.Learning\\src\\Vue.Learn\\vue-project\\node_modules\\typescript\\lib",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
@@ -57,12 +54,23 @@
       <recent name="D:\Frontend\Frontend.Design.Learning\N78-AirBnB-css" />
     </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="npm.dev">
     <configuration name="index.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/Frontend.Design.Learning/src/N78-AirBnB-css/index.html" useBuiltInWebServerPort="true">
+      <method v="2" />
+    </configuration>
+    <configuration name="dev" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/src/N83/ToDo.Client.App/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="dev" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
       <method v="2" />
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="npm.dev" />
         <item itemvalue="JavaScript Debug.index.html" />
       </list>
     </recent_temporary>
@@ -87,7 +95,9 @@
       <workItem from="1701846624427" duration="3804000" />
       <workItem from="1701881284896" duration="1237000" />
       <workItem from="1701884684020" duration="12000" />
-      <workItem from="1701924682178" duration="7792000" />
+      <workItem from="1701924682178" duration="8667000" />
+      <workItem from="1701955388823" duration="52000" />
+      <workItem from="1702046919374" duration="1163000" />
     </task>
     <servers />
   </component>
